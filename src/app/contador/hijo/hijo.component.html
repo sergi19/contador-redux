@@ -1,0 +1,10 @@
+<div style="text-align: center">
+    <h1>Componente hijo</h1>
+    <h2>Contador</h2>
+    <h2 style="color: red">{{count$ | async}}</h2>
+    <button pButton type="button" label="Multiplicar" (click)="multiply()"></button>
+    <button pButton type="button" label="Dividir" class="ui-button-danger" (click)="divide()"></button>
+</div>
+<br>
+<hr>
+<app-nieto></app-nieto>

@@ -1,0 +1,14 @@
+<div style="text-align: center">
+  <h1>Componente padre</h1>
+  <h2>Contador</h2>
+  <h2 style="color: red">{{count$ | async}}</h2>
+  <div>
+      <button pButton type="button" label="Incrementar" (click)="increment()"></button>
+      <button pButton type="button" label="Decrementar" class="ui-button-danger" (click)="decrement()"></button>
+  </div>
+</div>
+<br>
+<hr>
+<app-hijo></app-hijo>
+
+
